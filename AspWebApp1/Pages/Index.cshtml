@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>by-@Model.AuthorName</p>
+</div>
+
+<ul>
+    @for(int i=1; i< 5; i++)
+    {
+        <li>Product-list #i</li>
+    }
+</ul>
+
+<ul>
+    @for(int j=0; j<5; j++){
+        <li>Product-list @(j+1)</li>
+    }
+</ul>
+
+<ul>
+    @for(int k=0; k<5; k++){
+        string sample = $"Product-sample {k + 1}";
+        <li>@sample</li>
+    }
+</ul>
+
+<ul>
+    @for(int z = 0; z<5; z++){
+        string sam = $"Product-sample <strong>{z+1}</strong>";
+        <li>@Html.Raw(sam)</li>
+    }
+</ul>
