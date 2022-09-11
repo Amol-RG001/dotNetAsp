@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspWebApp1", "AspWebApp1\AspWebApp1.csproj", "{DAAF5A63-DAD3-4D3D-84EE-9769673B9F3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspWebApp1", "AspWebApp1\AspWebApp1.csproj", "{DAAF5A63-DAD3-4D3D-84EE-9769673B9F3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task6A", "Task6A\Task6A.csproj", "{17C5D246-6C2D-4F6B-8961-C8B2A4BB93E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspWebApp2", "AspWebApp2\AspWebApp2.csproj", "{6F978AF4-8B49-481F-ACED-CF96DA4FF633}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Commerce-Website", "E-Commerce-Website\E-Commerce-Website.csproj", "{2BE46D07-4A0D-4708-8219-AA55AD805DDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JS-RegistrationForm", "JS-RegistrationForm\JS-RegistrationForm.csproj", "{C8F2ED6C-5468-4F14-94B3-E3F99592C4D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC_RegistrationForm", "MVC_RegistrationForm\MVC_RegistrationForm.csproj", "{0FB5350A-8E98-435D-B7BE-3D31346404E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCBootstrapApp", "MVCBootstrapApp\MVCBootstrapApp.csproj", "{845C64CE-F1C8-47EE-9A1E-C2E3502C49BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,30 @@ Global
 		{DAAF5A63-DAD3-4D3D-84EE-9769673B9F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAAF5A63-DAD3-4D3D-84EE-9769673B9F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAAF5A63-DAD3-4D3D-84EE-9769673B9F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C5D246-6C2D-4F6B-8961-C8B2A4BB93E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C5D246-6C2D-4F6B-8961-C8B2A4BB93E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C5D246-6C2D-4F6B-8961-C8B2A4BB93E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C5D246-6C2D-4F6B-8961-C8B2A4BB93E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F978AF4-8B49-481F-ACED-CF96DA4FF633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F978AF4-8B49-481F-ACED-CF96DA4FF633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F978AF4-8B49-481F-ACED-CF96DA4FF633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F978AF4-8B49-481F-ACED-CF96DA4FF633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE46D07-4A0D-4708-8219-AA55AD805DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE46D07-4A0D-4708-8219-AA55AD805DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE46D07-4A0D-4708-8219-AA55AD805DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE46D07-4A0D-4708-8219-AA55AD805DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F2ED6C-5468-4F14-94B3-E3F99592C4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F2ED6C-5468-4F14-94B3-E3F99592C4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F2ED6C-5468-4F14-94B3-E3F99592C4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F2ED6C-5468-4F14-94B3-E3F99592C4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB5350A-8E98-435D-B7BE-3D31346404E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB5350A-8E98-435D-B7BE-3D31346404E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB5350A-8E98-435D-B7BE-3D31346404E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB5350A-8E98-435D-B7BE-3D31346404E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845C64CE-F1C8-47EE-9A1E-C2E3502C49BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845C64CE-F1C8-47EE-9A1E-C2E3502C49BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845C64CE-F1C8-47EE-9A1E-C2E3502C49BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845C64CE-F1C8-47EE-9A1E-C2E3502C49BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
